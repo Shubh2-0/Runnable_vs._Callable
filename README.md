@@ -52,8 +52,8 @@ public class MyCallable implements Callable<Integer> {
 Both interfaces are designed to represent a task that can be run by multiple threads. We can run Runnable tasks using the Thread class or ExecutorService, whereas we can only run Callables using the latter.
 
 # Return Values
-The Runnable interface is a functional interface and has a single run() method that doesn't accept any parameters or return any values.
-The Callable interface is a generic interface containing a single call() method that returns a generic value V:
+1️⃣ The Runnable interface is a functional interface and has a single run() method that doesn't accept any parameters or return any values.
+2️⃣ The Callable interface is a generic interface containing a single call() method that returns a generic value V:
 
 <p align="center">
 <img src="https://1.bp.blogspot.com/-hPABQB_W9D0/X7J67eFrReI/AAAAAAAAkcM/6xbW-nnmbbIj_gKcdDuI-67DyST55ly2QCLcBGAsYHQ/w400-h278/Difference%2Bbetween%2BCallable%2Band%2BRunnable%2Bin%2BJava.png" />
