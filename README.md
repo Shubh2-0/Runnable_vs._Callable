@@ -55,7 +55,7 @@ Both interfaces are designed to represent a task that can be run by multiple thr
 The Runnable interface is a functional interface and has a single run() method that doesn't accept any parameters or return any values.
 The Callable interface is a generic interface containing a single call() method that returns a generic value V:
 
-<p aling="center">
+<p align="center">
 <img src="https://1.bp.blogspot.com/-hPABQB_W9D0/X7J67eFrReI/AAAAAAAAkcM/6xbW-nnmbbIj_gKcdDuI-67DyST55ly2QCLcBGAsYHQ/w400-h278/Difference%2Bbetween%2BCallable%2Band%2BRunnable%2Bin%2BJava.png" />
 
 </p>
