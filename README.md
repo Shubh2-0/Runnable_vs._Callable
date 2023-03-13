@@ -6,7 +6,7 @@ Since Java's early days, multithreading has been a major aspect of the language.
 # What is Runnable?
 Runnable is an interface that classes implementing it are going to be executed in threads. Here, you can see the Runnable interface. All your logic that needs to be executed in a thread will be in the overridden run method. You will notice that it is a void method.
 
-{ 
+```
    public class MyRunnable implements Runnable {
 
     public void run() {
@@ -20,8 +20,7 @@ Runnable is an interface that classes implementing it are going to be executed i
         thread.start();
      }
   }
-
-}
+```
 # What is Callable?
 Everything I wrote about Runnable is valid for the Callable interface except one thing, return type. The method call will return any type after it completes its execution.
 
