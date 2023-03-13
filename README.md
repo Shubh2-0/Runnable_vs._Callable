@@ -25,6 +25,28 @@ Runnable is an interface that classes implementing it are going to be executed i
 ```
 # What is Callable?
 Everything I wrote about Runnable is valid for the Callable interface except one thing, return type. The method call will return any type after it completes its execution.
+**Example :-**
+```
+import java.util.concurrent.Callable;
+import java.util.concurrent.FutureTask;
+
+public class MyCallable implements Callable<Integer> {
+    public Integer call() throws Exception {
+        int sum = 0;
+        for (int i = 1; i <= 10; i++) {
+            sum += i;
+        }
+        return sum;
+    }
+    public static void main(String[] args) throws Exception {
+        Callable<Integer> myCallable = new MyCallable();
+        FutureTask<Integer> futureTask = new FutureTask<>(myCallable);
+        Thread thread = new Thread(futureTask);
+        thread.start();
+        System.out.println(futureTask.get());
+    }
+}
+```
 
 # Execution Mechanism ⚒️
 Both interfaces are designed to represent a task that can be run by multiple threads. We can run Runnable tasks using the Thread class or ExecutorService, whereas we can only run Callables using the latter.
