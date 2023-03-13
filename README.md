@@ -1,4 +1,4 @@
-# Runnable_vs._Callable
+# Runnable Vs Callable 🤜🤛
 
 Since Java's early days, multithreading has been a major aspect of the language. Runnable is the core interface provided for representing multithreaded tasks, and Java 1.5 provided Callable as an improved version of Runnable.
 
