@@ -73,9 +73,6 @@ Both interfaces are designed to represent a task that can be run by multiple thr
 ## Contributing
 🤝 Contributions to this repository are welcome. If you find any issues or want to enhance the existing projects, feel free to open a pull request. Please make sure to follow the repository's guidelines and code of conduct.
 
-## License
-📜 The code in this repository is licensed under the [MIT License](LICENSE). You can freely use, modify, and distribute the code as per the terms of the license.
-
 ## Acknowledgements
 🙏 This repository was created to provide a simple and practical demonstration of the `Runnable` and `Callable` interfaces. It draws inspiration from various Java programming resources and examples available online. Special thanks to the contributors and developers of these resources for sharing their knowledge.
 
