@@ -1,7 +1,8 @@
 # Runnable Vs Callable 🤜🤛
 
-Since Java's early days, multithreading has been a major aspect of the language. Runnable is the core interface provided for representing multithreaded tasks, and Java 1.5 provided Callable as an improved version of Runnable.
+This GitHub repository contains three projects that demonstrate the implementation and usage of `Runnable` and `Callable` interfaces in Java.
 
+Since Java's early days, multithreading has been a major aspect of the language. Runnable is the core interface provided for representing multithreaded tasks, and Java 1.5 provided Callable as an improved version of Runnable.
 
 # What is Runnable?
 Runnable is an interface that classes implementing it are going to be executed in threads. Here, you can see the Runnable interface. All your logic that needs to be executed in a thread will be in the overridden run method. You will notice that it is a void method.
@@ -59,3 +60,26 @@ Both interfaces are designed to represent a task that can be run by multiple thr
 <img src="https://1.bp.blogspot.com/-hPABQB_W9D0/X7J67eFrReI/AAAAAAAAkcM/6xbW-nnmbbIj_gKcdDuI-67DyST55ly2QCLcBGAsYHQ/w400-h278/Difference%2Bbetween%2BCallable%2Band%2BRunnable%2Bin%2BJava.png" />
 
 </p>
+
+
+## Getting Started
+🚀 To run any of the projects in this repository, follow the instructions in their respective directories. Each project contains a README file with detailed explanations and steps to execute the code.
+
+## Requirements
+⚙️ To compile and execute the projects, ensure you have the following prerequisites:
+- Java Development Kit (JDK) 8 or higher
+- An integrated development environment (IDE) or a command-line interface (CLI) to build and run Java code
+
+## Contributing
+🤝 Contributions to this repository are welcome. If you find any issues or want to enhance the existing projects, feel free to open a pull request. Please make sure to follow the repository's guidelines and code of conduct.
+
+## License
+📜 The code in this repository is licensed under the [MIT License](LICENSE). You can freely use, modify, and distribute the code as per the terms of the license.
+
+## Acknowledgements
+🙏 This repository was created to provide a simple and practical demonstration of the `Runnable` and `Callable` interfaces. It draws inspiration from various Java programming resources and examples available online. Special thanks to the contributors and developers of these resources for sharing their knowledge.
+
+If you have any questions or suggestions, please feel free to reach out by creating an issue in this repository. Enjoy exploring the `Runnable` and `Callable` interfaces!
+
+
+
