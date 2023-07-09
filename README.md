@@ -60,7 +60,7 @@ Both interfaces are designed to represent a task that can be run by multiple thr
 <img src="https://1.bp.blogspot.com/-hPABQB_W9D0/X7J67eFrReI/AAAAAAAAkcM/6xbW-nnmbbIj_gKcdDuI-67DyST55ly2QCLcBGAsYHQ/w400-h278/Difference%2Bbetween%2BCallable%2Band%2BRunnable%2Bin%2BJava.png" />
 
 </p>
-
+ 
 
 ## Getting Started
 🚀 To run any of the projects in this repository, follow the instructions in their respective directories. Each project contains a README file with detailed explanations and steps to execute the code.
